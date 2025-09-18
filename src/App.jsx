@@ -1,10 +1,10 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { createClient } from "@supabase/supabase-js";
+import React from "react";
 
-// ... (tout ton code existant inchangé jusqu'à la fin)
-
-function App() {
-  // ... contenu de ton composant principal
+export default function App() {
+  return (
+    <div style={{ padding: 24, fontFamily: 'ui-sans-serif, system-ui' }}>
+      <h1>ACRT — Catering & Planning • 24h 2CV</h1>
+      <p>Build OK ✅ — L’appli est en place. On peut réinjecter l’UI complète ensuite.</p>
+    </div>
+  );
 }
-
-export default App;
